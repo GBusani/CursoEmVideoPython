@@ -1,0 +1,11 @@
+n = int(input('Digite um número: '))
+i = 0
+SeqFib = 0
+somador = 1
+while i != n:
+    i += 1
+    print(SeqFib, end = ' -> ')
+    anterior = SeqFib
+    SeqFib = SeqFib + somador
+    somador = anterior
+print('FIM', end = '')
